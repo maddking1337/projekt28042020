@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Doucment</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="head">
+            <h1>Darmowe GTA V</h1>
+        </div>
+        <div class="left">
+            <div class="list">
+                <p class="paragraph">Pobierz</p>
+                <p class="paragraph">Darmowe</p>
+                <p class="paragraph">GTA V</p>
+                
+            </div>
+        </div>
+        <div class="right">Wszystko LEGIT i ZA FREE DOWNOLAD NO SCAM
+        </div>
+        <div class="footer">
+            <a href="index1.html">FREEGTAV.exe</a>
+        </div>
+    </div>
+</body>
+</html>
