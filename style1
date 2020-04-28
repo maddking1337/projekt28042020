@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+.cont{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 20fr 60fr 20fr;
+    grid-template-rows: 50% 15% 35%;
+    grid-template-areas: 
+    "head prw prw"
+    "lw prw prw"
+    "lw ft ft"
+    ;
+}
+.head{
+    grid-area: head;
+    background-color:royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    grid-area: lw;
+    background-color:lightblue;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    grid-area: prw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.footer{
+    grid-area: ft;
+    background-color:grey;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list .paragraph:nth-child(2n+1){
+    color:red;
+}
+.list .paragraph:nth-child(2n+0){
+    color: blue;
+}
+.list .paragraph::first-letter{
+    font-size: 2rem;
+}
+h1::selection{
+    background-color: yellow;
+    color: blue;
+}
+
+.text:hover{
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    transition: all 600ms linear;
+}
+.text:last-of-type{
+    color:red;
+    font-size: 1.1rem;
+}
+.text::before{
+    content: "„";
+}
+.text::after{
+    content: "”";
+}
+
